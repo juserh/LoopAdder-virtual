@@ -1,8 +1,8 @@
 #include <iostream>
-
+#include "ForLoopAdder.h"
 using namespace std;
 
-class LoopAdder {
+/*class LoopAdder {
 	string name;
 	int x, y, sum;
 	void read();
@@ -42,7 +42,7 @@ public:
 		}
 		return sum;
 	}
-};
+};*/
 int main() {
 	ForLoopAdder forLoop("For Loop");
 	forLoop.run();
